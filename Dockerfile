@@ -1,0 +1,2 @@
+FROM ghcr.io/openslides/openslides/openslides-proxy:4.3.1@sha256:f7fa6074d4ac37f8726c8dd04ebcbbc35a1bbc3ec75e09ed7e34a120ca5c7470
+EXPOSE 8000
