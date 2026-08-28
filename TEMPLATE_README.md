@@ -2,7 +2,7 @@
 
 ## About Hosting OpenSlides
 
-OpenSlides is a web platform for organizing meetings, agendas, motions, elections, participants, and projected content. This template deploys stable 4.3.1 using the complete official service architecture, a generated superadmin account, private PostgreSQL and Redis, and durable database storage.
+OpenSlides is a web platform for organizing meetings, agendas, motions, elections, participants, and projected content. This template deploys stable 4.3.2 using the complete official service architecture, a generated superadmin account, private PostgreSQL and Redis, and durable database storage.
 
 Sign in as `superadmin` with `SUPERADMIN_PASSWORD` from the `backend-manage` service.
 
@@ -20,7 +20,7 @@ The template contains the official proxy, client, three backend roles, autoupdat
 
 ### Implementation Details
 
-All OpenSlides images are pinned to 4.3.1. Purpose-specific adapters materialize generated secrets as private files for services that require Docker-secret paths. Services communicate only over Railway private networking; the proxy is the sole public endpoint.
+All OpenSlides images are pinned to 4.3.2. Purpose-specific adapters materialize generated secrets as private files for services that require Docker-secret paths. Services communicate only over Railway private networking; the proxy is the sole public endpoint.
 
 ## Why Deploy OpenSlides on Railway?
 
