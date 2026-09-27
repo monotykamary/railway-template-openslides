@@ -1,4 +1,4 @@
-FROM ghcr.io/openslides/openslides/openslides-projector:4.3.3@sha256:70d4929f155e230ed9b3ee5b0acfed87f5c36714200c027dea549b8ae9254380
+FROM ghcr.io/openslides/openslides/openslides-projector:4.3.4@sha256:d6abbdac5b59b5d49e0b62129ff99555a5c75013a0648ac5cd714b9047c45cf0
 COPY secret-entrypoint.sh /railway-secret-entrypoint.sh
 USER root
 RUN chmod 0755 /railway-secret-entrypoint.sh
