@@ -1,2 +1,2 @@
-FROM ghcr.io/openslides/openslides/openslides-proxy:4.3.5@sha256:1731ffecf57ed9c6c4cdbf07f8fbbc0d243e14cf9faf795d8290a3d0b7ad91b0
+FROM ghcr.io/openslides/openslides/openslides-proxy:4.3.6@sha256:1351d1210d7fb181b351ac62df272acdfbb8250641ceee89cca6701281d87c45
 EXPOSE 8000
